@@ -1,0 +1,57 @@
+plugins {
+    id "com.heroku.sdk.heroku-gradle" version "1.0.1"
+}
+
+apply plugin: 'java'
+
+sourceCompatibility = 9
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile 'org.apache.commons:commons-lang3:3.5'
+    compile 'org.apache.commons:commons-io:1.3.2'
+    compile 'com.google.guava:guava:19.0'
+
+
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+
+
+    compile project(':language-util')
+    compile project(':twitter-util')
+    compile project(':text-util')
+    compile project(':generator-util')
+    compile project(':chatbot-util')
+    compile project(':babbly')
+    compile project(':dutch-datasets')
+    compile project(':wiktionary-nl-scraper')
+    compile project(':mijnwoordenboek-scraper')
+
+}
+
+
+heroku {
+    appName = "samson-bot"
+    processTypes(
+            worker: "java -jar build/libs/" + appName + ".jar -mode post "
+    )
+    includes = ["D:\\Self\\Repositories\\" + appName + "\\system.properties"]
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'be.thomaswinters.samsonworld.samson.SamsonTwitterBot',
+        )
+    }
+    from(configurations.compile.collect { it.isDirectory() ? it : zipTree(it) })
+}
+
+task buildDeployHeroku {
+    dependsOn 'build'
+    dependsOn 'deployHeroku'
+    tasks.findByName('deployHeroku').mustRunAfter 'build'
+}

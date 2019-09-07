@@ -1,0 +1,20 @@
+include ':language-util'
+project(':language-util').projectDir = new File(settingsDir, '../language-util')
+include ':twitter-util'
+project(':twitter-util').projectDir = new File(settingsDir, '../twitter-util')
+include ':text-util'
+project(':text-util').projectDir = new File(settingsDir, '../text-util')
+include ':chatbot-util'
+project(':chatbot-util').projectDir = new File(settingsDir, '../chatbot-util')
+include ':generator-util'
+project(':generator-util').projectDir = new File(settingsDir, '../generator-util')
+include ':babbly'
+project(':babbly').projectDir = new File(settingsDir, '../babbly')
+include ':wiktionary-nl-scraper'
+project(':wiktionary-nl-scraper').projectDir = new File(settingsDir, '../wiktionary-nl-scraper')
+include ':dutch-datasets'
+project(':dutch-datasets').projectDir = new File(settingsDir, '../dutch-datasets')
+include ':mijnwoordenboek-scraper'
+project(':mijnwoordenboek-scraper').projectDir = new File(settingsDir, '../mijnwoordenboek-scraper')
+rootProject.name = 'samson-bot'
+
