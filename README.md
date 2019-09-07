@@ -19,4 +19,4 @@ In order for this code to work, you will need to install [Gradle](https://gradle
 - [wiktionary-nl-scraper](https://github.com/twinters/wiktionary-nl-scraper)
 - [mijnwoordenboek-scraper](https://github.com/twinters/mijnwoordenboek-scraper)
 
-Due to copyright reasons, the lyrics from Samson & Gert are not included, and should be downloaded yourself using our [songteksten.nl scraper](https://github.com/twinters/songteksten-nl-scraper).
+Due to copyright reasons, the lyrics from Samson & Gert are not included, and should be downloaded yourself using our [songteksten.nl scraper](https://github.com/twinters/songteksten-nl-scraper), and saved in `src/main/resources/data/samson-lyrics`.
