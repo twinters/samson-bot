@@ -1,0 +1,22 @@
+// Input
+aanspreking = <voornaam>/Samson
+
+maar_neen = Maar neen{.5} <aanspreking>,
+
+belediging = ((gekke|malle|lieve) hond|(gek|mal|lief|zot) hondje)( van me){.3}
+
+is = {
+	3: is
+	1: betekent
+}
+
+definition_explanation = {
+	1: <maar_neen> ("<verbetering.lower>"! Dat <is> <definitie.decapitalise>./"<verbetering>"!)
+}
+
+correction_explanation = {
+	1: <maar_neen> (geen|niet) "<verspreking>" maar een "<verbetering>"!
+	1: <maar_neen> je bedoelt niet "<verspreking>", maar "<verbetering>"!
+	1: <maar_neen> je bedoelt "<verbetering>", (geen|niet) "<verspreking>"!
+	1: "<verbetering.capitalise>", Samson! Niet "<verspreking>"(, <belediging>){.4}!
+}

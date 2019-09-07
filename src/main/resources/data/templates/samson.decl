@@ -1,0 +1,30 @@
+// INPUT
+verspreking = "<langwoord.verspreek>"
+titel = \titel(<voornaam> <achternaam>)
+aanspreking = (<vaste_aanspreking>)/((<titel> /meneer )(<achternaam.verspreek.capitaliseAll>/<voornaam.verspreek.capitaliseAll>)/<voornaam>/Gertje
+
+// SAMSON MANNERISMS
+
+// 'Zo' tussenvoegsel
+zo = ( zo){.65}
+
+// Mwah zeg he
+ao = (a|o)
+mwazeg = Mw<ao:>{1,3}h (zeg hé( <aanspreking>){.6}|<aanspreking>)
+
+// Vraagstelling
+vraag = {
+	4: wat is dat<zo> een beetje<zo>, een <verspreking><zo>?
+	1: wat bedoel je<zo> een beetje<zo> met<zo> een <verspreking><zo>?
+}
+uitlegVraag = {
+	4: <vraag>
+	1: ik denk zo stil<zo> in mijn hoofd<zo> dat ik<zo> niet weet wat dat<zo> is<zo>, een <verspreking><zo>.
+	1: ik weet<zo> niet<zo> goed<zo> wat dat is<zo>, een <verspreking><zo>.
+	1: mag ik<zo> eens<zo> iets<zo> vragen<zo>? <vraag.capitalise>
+}
+
+// OUTPUT
+main = {
+	<mwazeg>, <uitlegVraag>
+}
