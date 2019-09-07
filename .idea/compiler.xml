@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="be.thomaswinters.babbly.main" target="1.9" />
+      <module name="be.thomaswinters.babbly.test" target="1.9" />
+      <module name="be.thomaswinters.chatbot-util.main" target="1.9" />
+      <module name="be.thomaswinters.chatbot-util.test" target="1.9" />
+      <module name="be.thomaswinters.generator-util.main" target="1.9" />
+      <module name="be.thomaswinters.generator-util.test" target="1.9" />
+      <module name="be.thomaswinters.language-util.main" target="1.9" />
+      <module name="be.thomaswinters.language-util.test" target="1.9" />
+      <module name="be.thomaswinters.text-util.main" target="1.9" />
+      <module name="be.thomaswinters.text-util.test" target="1.9" />
+      <module name="be.thomaswinters.twitter-util.main" target="1.9" />
+      <module name="be.thomaswinters.twitter-util.test" target="1.9" />
+      <module name="be.thomaswinters.wiktionary-nl-scraper.main" target="1.9" />
+      <module name="be.thomaswinters.wiktionary-nl-scraper.test" target="1.9" />
+      <module name="samson-bot.dutch-datasets.main" target="1.8" />
+      <module name="samson-bot.dutch-datasets.test" target="1.8" />
+      <module name="samson-bot.main" target="1.9" />
+      <module name="samson-bot.mijnwoordenboek-scraper.main" target="1.9" />
+      <module name="samson-bot.mijnwoordenboek-scraper.test" target="1.9" />
+      <module name="samson-bot.test" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

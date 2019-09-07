@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1926502039/be.thomaswinters.babbly.iml" filepath="$PROJECT_DIR$/.idea/modules/-1926502039/be.thomaswinters.babbly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1926502039/be.thomaswinters.babbly.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1926502039/be.thomaswinters.babbly.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1926502039/be.thomaswinters.babbly.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1926502039/be.thomaswinters.babbly.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/983139517/be.thomaswinters.chatbot-util.iml" filepath="$PROJECT_DIR$/.idea/modules/983139517/be.thomaswinters.chatbot-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/983139517/be.thomaswinters.chatbot-util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/983139517/be.thomaswinters.chatbot-util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/983139517/be.thomaswinters.chatbot-util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/983139517/be.thomaswinters.chatbot-util.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/604709017/be.thomaswinters.generator-util.iml" filepath="$PROJECT_DIR$/.idea/modules/604709017/be.thomaswinters.generator-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/604709017/be.thomaswinters.generator-util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/604709017/be.thomaswinters.generator-util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/604709017/be.thomaswinters.generator-util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/604709017/be.thomaswinters.generator-util.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1810188250/be.thomaswinters.language-util.iml" filepath="$PROJECT_DIR$/.idea/modules/1810188250/be.thomaswinters.language-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1810188250/be.thomaswinters.language-util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1810188250/be.thomaswinters.language-util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1810188250/be.thomaswinters.language-util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1810188250/be.thomaswinters.language-util.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-60019547/be.thomaswinters.text-util.iml" filepath="$PROJECT_DIR$/.idea/modules/-60019547/be.thomaswinters.text-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-60019547/be.thomaswinters.text-util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-60019547/be.thomaswinters.text-util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-60019547/be.thomaswinters.text-util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-60019547/be.thomaswinters.text-util.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1384425529/be.thomaswinters.twitter-util.iml" filepath="$PROJECT_DIR$/.idea/modules/1384425529/be.thomaswinters.twitter-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1384425529/be.thomaswinters.twitter-util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1384425529/be.thomaswinters.twitter-util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1384425529/be.thomaswinters.twitter-util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1384425529/be.thomaswinters.twitter-util.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1628069604/be.thomaswinters.wiktionary-nl-scraper.iml" filepath="$PROJECT_DIR$/.idea/modules/1628069604/be.thomaswinters.wiktionary-nl-scraper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1628069604/be.thomaswinters.wiktionary-nl-scraper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1628069604/be.thomaswinters.wiktionary-nl-scraper.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1628069604/be.thomaswinters.wiktionary-nl-scraper.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1628069604/be.thomaswinters.wiktionary-nl-scraper.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/samson-bot.iml" filepath="$PROJECT_DIR$/.idea/modules/samson-bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1708718941/samson-bot.dutch-datasets.iml" filepath="$PROJECT_DIR$/.idea/modules/1708718941/samson-bot.dutch-datasets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1708718941/samson-bot.dutch-datasets.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1708718941/samson-bot.dutch-datasets.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1708718941/samson-bot.dutch-datasets.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1708718941/samson-bot.dutch-datasets.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samson-bot.main.iml" filepath="$PROJECT_DIR$/.idea/modules/samson-bot.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-244793991/samson-bot.mijnwoordenboek-scraper.iml" filepath="$PROJECT_DIR$/.idea/modules/-244793991/samson-bot.mijnwoordenboek-scraper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-244793991/samson-bot.mijnwoordenboek-scraper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-244793991/samson-bot.mijnwoordenboek-scraper.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-244793991/samson-bot.mijnwoordenboek-scraper.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-244793991/samson-bot.mijnwoordenboek-scraper.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/samson-bot.test.iml" filepath="$PROJECT_DIR$/.idea/modules/samson-bot.test.iml" />
     </modules>
   </component>
 </project>
